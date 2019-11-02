@@ -1,0 +1,191 @@
+Fixed 1.13c TXT Files
+Version 1.00
+By Count.Dracula
+
+
+What is this?
+Fix several bugs and extend some files based on the original v1.13c TXT.
+This set of TXTs will not be perfectly compatible with D2 1.10x - 1.12x.
+
+
+DISCLAIMER:
+I do not take any credits for making this set of fixed TXT files, since I made it with the help of Nefarius's Fixed v1.11b TXT files.
+Some of the bugs present in v1.11b are already fixed in v1.13c.
+
+
+
+
+
+--- List of Fixed TXT Bugs ---
+
+
+
+Armor.txt
+
+- Fixed invalid Circlet upgrade data
+- Fixed incorrect column headers (extra [space])
+
+
+AutoMagic.txt
+
+- Added *comment column
+- Added missing columns
+
+
+Belts.txt
+
+- Added missing *EOL column
+
+
+BodyLocs.txt
+
+- Added missing *EOL column
+
+
+CharStats.txt
+
+- Capitalized all skill names under StartSkill column to avoid confusion
+
+
+CubeMain.txt
+
+- Fixed missing *eols
+
+
+CubeMod.txt
+
+- Added missing *EOL column
+
+
+CubeType.txt
+
+- Added missing *EOL column
+
+
+ElemTypes.txt
+
+- Added missing *EOL column
+
+
+HireDesc.txt
+
+- Added missing *EOL column
+
+
+HitClass.txt
+
+- Added missing *EOL column
+
+
+ItemStatCost.txt
+
+- Filled missing divide-columns
+
+
+Levels.txt
+
+- Removed needless data
+- Extended the file for more monster species to be spawned
+- Fixed incorrectly spawned monster species in the Pandemonium Levels
+
+
+MagicPrefix.txt
+
+- Added *comment column
+- Fixed missing *eols
+- Fixed wrong IType data (e.g. staff --> staf)
+
+
+MagicSuffix.txt
+
+- Added *comment column
+- Added missing columns
+- Fixed missing *eols
+- Fixed wrong IType data (e.g. staff --> staf)
+
+
+Misc.txt
+
+- Added auto prefix column: now we are able to link AutoMagic.txt to here
+
+
+Missiles.txt
+
+- Added the missing frozenorbexplode (client-side) to FO
+- Fixed a bug caused by ReturnFire for Frozen Horror and Nihlathak's Arctic Blast
+- Fixed a bug that prevented the poison trail of Plague Javelin from dealing damage
+- Fixed a bug that caused several poison clouds to play incorrect sounds upon collision (does not include clawviper9's missile)
+- Eliminated extra [space]
+
+
+MonLvl.txt
+
+- Removed needless data
+
+
+Monstats.txt
+
+- Fixed BatDemon & SandRaider AI
+- Fixed several broken strings
+- Fixed NextInClass broken chains
+- Fixed duplicate cr_lancer8 IDs and associated problems
+
+
+Objects.txt
+
+- Fixed duplicate ID numbers
+
+
+Properties.txt
+
+- Fixed missing *eols
+
+
+Runes.txt
+
+- Fixed duplicate entires
+- Enabled Pattern & Plague RW and fixed their wrong modifiers
+- Completed *runes column
+
+
+SetItems.txt
+
+- Fixed a problem with Naj's Circlet's modifier (Light --> light)
+
+
+Skills.txt
+
+- Fixed formerly upper-case summon names and skills
+- Fixed a bug that Barbs Aura only had 1/2 of the displayed additional thorns damage per level
+
+
+States.txt
+
+- Capitalized the names under Skill column
+
+
+TreasureClassEx.txt
+
+- Fixed missing *eols
+
+
+UniqueItems.txt
+
+- Removed the last blank row
+
+
+WeaponClass.txt
+
+- Added missing *Eol column
+
+
+Weapons.txt
+
+- Fixed invalid Act3 quest items upgrade data
+- Fixed incorrect column headers (extra [space])
+
+
+
+Others:
+
+- Fixed a bug that Siege Beast's Stomp deals no damage
